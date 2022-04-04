@@ -1,0 +1,508 @@
+body {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  color: #042550;
+}
+.sectionOne {
+  width: 100%;
+  height: 600px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: linear-gradient(
+    40deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 242, 208, 1) 0%,
+    rgba(249, 249, 249, 1) 44%,
+    rgba(220, 250, 242, 1) 58%,
+    rgba(254, 222, 237, 1) 81%,
+    rgba(220, 250, 242, 1) 100%
+  );
+}
+.navbar {
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.navbar .brand {
+  color: red;
+}
+
+ul,
+li {
+  display: inline;
+  padding-left: 13px;
+}
+.brand {
+  float: left;
+  font-size: 20px;
+}
+.try {
+  float: right;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 136, 137, 1) 0%,
+    rgba(251, 65, 66, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 25px;
+  width: 100px;
+  height: 32px;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+.leftSection {
+  float: left;
+  padding-top: 160px;
+  position: relative;
+}
+.looking {
+  color: red;
+}
+.find {
+  font-size: 36px;
+}
+.description {
+  width: 270px;
+}
+.search {
+  margin-top: 37px;
+  width: 100%;
+}
+.search form input {
+  float: left;
+  height: 32px;
+}
+.search form input:nth-child(2) {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  text-indent: 40px;
+}
+.search form input:nth-child(4) {
+  text-indent: 34px;
+}
+.search i {
+  position: absolute;
+  padding-top: 10px;
+  color: #96b0b0;
+}
+.search form i:nth-child(1) {
+  left: 16px;
+}
+.search form i:nth-child(3) {
+  left: 217px;
+}
+.search button {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 136, 137, 1) 0%,
+    rgba(251, 65, 66, 1) 100%
+  );
+  color: #ffffff;
+  border-radius: 25px;
+  width: 100px;
+  height: 38px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0;
+  margin-left: -1px;
+}
+.rightSection {
+  position: absolute;
+  right: 85px;
+  margin-top: 20px;
+}
+.rightSection img {
+  width: 520px;
+}
+.sectionOneDot {
+  position: absolute;
+  right: 10px;
+  margin-top: 46px;
+  font-size: 20px;
+  color: white;
+  opacity: 0.7;
+}
+.sectionTwo {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.sectionTwo .description {
+  color: red;
+}
+.descriptionthree {
+  display: block;
+  margin-bottom: 35px;
+}
+.card {
+  float: left;
+  margin-left: 113px;
+  margin-right: 113px;
+  margin-bottom: 34px;
+}
+.box {
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  width: 180px;
+  padding: 12px;
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.box i {
+  position: absolute;
+  color: white;
+  left: 29px;
+  padding-top: 15px;
+}
+.box span {
+  position: absolute;
+  display: block;
+  position: absolute;
+  left: 76px;
+}
+.box .jobs {
+  color: #7d7d7d;
+  margin-top: 25px;
+}
+.chest {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+}
+.see {
+  color: red;
+  margin-bottom: 38px;
+}
+.sectionTwoDot {
+  position: absolute;
+  left: 10px;
+  margin-top: -410px;
+  opacity: 0.8;
+  z-index: -1;
+}
+.sectionThree {
+  background-color: #fafbfd;
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-bottom: 70px;
+  margin-bottom: 95px;
+}
+.sectionThree .description {
+  margin-left: 110px;
+  padding-top: 38px;
+  color: red;
+}
+.sectionThree .title {
+  margin-left: 110px;
+  font-size: 30px;
+}
+.customerCard {
+  border: 1px solid #ccc;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 13px;
+  height: 170px;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-right: -80px;
+  float: left;
+}
+.customerCard img {
+  width: 80px;
+  height: 80px;
+  border-radius: 70px;
+  padding: 10px;
+}
+
+.customerCard .customerName {
+  position: absolute;
+  font-size: 23px;
+  margin-top: 16px;
+  margin-left: 7px;
+}
+
+.customerCard .customerCompany {
+  position: absolute;
+  margin-top: 54px;
+  margin-left: 6px;
+  font-size: 15px;
+}
+
+.customerCard .customerText {
+  width: 220px;
+  display: block;
+  position: absolute;
+  overflow-wrap: break-word;
+  padding-left: 15px;
+}
+.downloadTitle {
+  margin-left: 5%;
+  display: block;
+  font-size: 30px;
+  margin-top: 35px;
+}
+.downloadDescription {
+  margin-left: 5%;
+  margin-bottom: 55px;
+}
+.downloadImg .googleStore {
+  width: 200px;
+  height: 56px;
+}
+.downloadImg .appStore {
+  width: 200px;
+  height: 56px;
+}
+.downloadImg {
+  position: absolute;
+  right: 17%;
+  margin-top: 85px;
+  float: right;
+}
+.sectionFour {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  background: linear-gradient(
+    40deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 242, 208, 1) 0%,
+    rgba(249, 249, 249, 1) 44%,
+    rgba(220, 250, 242, 1) 58%,
+    rgba(254, 222, 237, 1) 81%,
+    rgba(220, 250, 242, 1) 100%
+  );
+  width: 70%;
+  height: 221px;
+  display: grid;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.sectionFive {
+  float: left;
+  margin-left: 215px;
+  margin-right: 100px;
+  margin-bottom: 47px;
+}
+.footerDescription,
+.footerWork,
+.footerAbout,
+.footerContact {
+  float: left;
+}
+.footerDescription {
+  margin-right: 160px;
+}
+.footerWork,
+.footerAbout {
+  margin-right: 178px;
+}
+.footerWork .link,
+.footerAbout .link,
+.footerContact .link {
+  margin-top: 22px;
+}
+.footerWork a,
+.footerAbout a {
+  display: block;
+  margin-bottom: 10px;
+}
+.footerDescription .title {
+  display: block;
+  color: red;
+  margin-bottom: 22px;
+  font-size: 20px;
+}
+.footerDescription .description {
+  width: 215px;
+  display: inline-block;
+  overflow-wrap: break-word;
+}
+.footerWork .title,
+.footerAbout .title,
+.footerContact .title {
+  font-size: 20px;
+}
+.iconBack {
+  background-color: red;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 4px;
+}
+.iconBack i {
+  margin-top: 9px;
+}
+.iconBack .fa-twitter,
+.iconBack .fa-twitch {
+  margin-left: 10px;
+}
+.iconBack .fa-play {
+  margin-left: 13px;
+}
+.iconBack .fa-discord {
+  margin-left: 8px;
+}
+.footerLine hr {
+  margin: auto;
+  clear: both;
+  border-top: 1px solid #eee;
+  width: 50%;
+  margin-bottom: 25px;
+  border: 0;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: 0px;
+  border-top: 1px solid #eee;
+}
+.footerLine {
+  text-align: center;
+  color: #cecece;
+}
+.footerLine a {
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .footerDescription {
+    margin-right: 70px;
+  }
+  .footerWork,
+  .footerAbout {
+    margin-right: 85px;
+  }
+  .downloadImg {
+    right: 15%;
+    margin-top: 52px;
+    width: 225px;
+  }
+  .rightSection img {
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sectionOne {
+    height: 705px;
+  }
+  .sectionOneDot {
+    top: 154px;
+  }
+  .brand {
+    float: none;
+    display: block;
+  }
+  ul {
+    display: block;
+  }
+  .try {
+    float: none;
+    visibility: hidden;
+  }
+  .rightSection img {
+    width: 35%;
+    margin-left: 9%;
+    margin-top: -260px;
+  }
+  .leftSection {
+    float: none;
+    text-align: center;
+    padding-top: 32px;
+  }
+  .search {
+    display: grid;
+    justify-content: center;
+  }
+  .search form input {
+    border-radius: 25px;
+    display: block;
+    float: none;
+    margin-bottom: 9px;
+  }
+  .search form i {
+    text-align: center;
+    margin-left: -83px;
+    left: unset !important;
+  }
+  .search button {
+    border-radius: 25px;
+  }
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .sectionThree .title,
+  .sectionThree .description {
+    width: unset;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .sectionThree .card {
+    float: none;
+    display: grid;
+    justify-content: center;
+  }
+  .customerCard {
+    margin-left: 0;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+  .sectionFour {
+    height: 385px;
+    width: 75%;
+  }
+  .downloadImg {
+    margin-top: -140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 0;
+    float: none;
+  }
+  .downloadTitle {
+    margin-left: 0;
+    margin-top: 19px;
+    text-align: center;
+  }
+  .downloadDescription {
+    margin-left: 0;
+    margin-bottom: 154px;
+    text-align: center;
+  }
+  .sectionFive {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 47px;
+    text-align: center;
+  }
+  .footerDescription,
+  .footerWork,
+  .footerAbout,
+  .footerContact {
+    float: none;
+  }
+  .footerDescription {
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  .footerWork,
+  .footerAbout {
+    margin-right: 0;
+  }
+  .iconBack .fa-play,
+  .iconBack .fa-twitter,
+  .iconBack .fa-discord,
+  .iconBack .fa-twitch {
+    margin-left: 0;
+  }
+}
