@@ -84,6 +84,8 @@ a {
 }
 .search form input:nth-child(4) {
   text-indent: 34px;
+  border-bottom-left-radius: 1px;
+  border-top-left-radius: 1px;
 }
 .search i {
   position: absolute;
